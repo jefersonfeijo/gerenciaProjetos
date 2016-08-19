@@ -150,6 +150,8 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
+
         /*
          * Package Service Providers...
          */
@@ -162,6 +164,7 @@ return [
         gerenciaProjeto\Providers\AuthServiceProvider::class,
         gerenciaProjeto\Providers\EventServiceProvider::class,
         gerenciaProjeto\Providers\RouteServiceProvider::class,
+        gerenciaProjeto\Providers\gerenciaProjetoRepositoryProvider::class,
 
     ],
 
